@@ -1,0 +1,17 @@
+{
+  "name": "ripple-account-balances",
+  "version": "1.0.0",
+  "description": "Retrieves account balances and prints to the console",
+  "main": "ripple-account-balances.js",
+  "dependencies": {
+    "promise": "^6.0.1",
+    "ripple-lib": "^0.10.0",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
