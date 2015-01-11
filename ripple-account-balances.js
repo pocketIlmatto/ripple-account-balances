@@ -60,7 +60,7 @@ function getBalances(account) {
   });
 }
 
-//returns a Promise representing the XRP balance
+//returns a Promise representing the IOU balances
 function getIOUBalances(account) {
   return new Promise(function (fulfill, reject) {
     var request = remote.requestAccountLines({account: account});
@@ -84,7 +84,7 @@ function getIOUBalances(account) {
   });
 }
 
-//returns a Promise representing the IOU balances
+//returns a Promise representing the XRP balance
 function getXRPBalance(account) {
   return new Promise(function (fulfill, reject) {
     var request = remote.requestAccountInfo({account: account});
